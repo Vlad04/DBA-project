@@ -33,21 +33,32 @@ This project analyse the social netwok of a user by:
 ----------------Programs that have to be installed----------------
 ------------------------------------------------------------------
 
-   -Pip:
-        sudo apt-get install python-pip python-dev build-essential 
+   #Pip:
+   
+        sudo apt-get install python-pip python-dev build-essential
+         
         sudo pip install --upgrade pip 
+        
         sudo pip install --upgrade virtualenv
-   -Tweepy:
+        
+   #Tweepy:
+   
         sudo pip install tweepy
-   -Npm:
+        
+   #Npm:
+   
         sudo apt-get update
+        
         sudo apt-get install nodejs
+        
         sudo apt-get install npm
-   -Firebase-import:
+        
+   #Firebase-import:
+   
          npm install firebase-import
+         
          export PATH=$PATH:`npm bin`
          
-   
 
 1) Gather user information from tweeter API
 
