@@ -62,23 +62,31 @@ This project analyse the social netwok of a user by:
 
 1) Gather user information from tweeter API
 
-    Givies as parameter the first and second user:
+    #Givies as parameter the first and second user:
+    
         python main.py --user 20_Vlad 
+        
         python main.py --user BillGates
      
-    To upload your results to a firebase database
+    #To upload your results to a firebase database
+    
         make upload
         
-    On Makefile you can edit the upload line to your own firebase link database (https://basesdedatos-b5c80.firebaseio.com)
-    Remember to disable the security on your firebase:
-        On your project go to Database -> Rules and edit as following:
+    #On Makefile you can edit the upload line to your own firebase link database (https://basesdedatos-b5c80.firebaseio.com)
+    
+    #Remember to disable the security on your firebase:
+    
+    #On your Firebase project go to Database -> Rules and edit as following:
+    
             {
               "rules": {
                 ".read": false,
                 ".write": false
               }
             }
-   To open the graph just run the command line:
+            
+   #To open the graph just run the command line:
+   
         evince graph.pdf
         
 2) Generate a graph newtwork: 
